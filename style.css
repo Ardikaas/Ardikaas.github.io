@@ -193,4 +193,32 @@
   background-color: #E5E5CB;
   border-radius: 10px;
   padding: 15px;
+  transition: trasform .1s;
 }
+
+.home>a:hover{
+  transform: scale(1.1);
+}
+
+/* home */
+
+/* about me */
+.aboutme{
+  padding-left: 25px;
+  color: #E5E5CB;
+}
+
+.contactme{
+  text-decoration: none;
+  color: #382116;
+  background-color: #E5E5CB;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform .1s;
+} 
+
+.contactme:hover{
+  transform: scale(1.1);
+  /* font-weight: bold; */
+}
+/* about me */
