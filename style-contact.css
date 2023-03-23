@@ -6,6 +6,10 @@
   right:0px;
   bottom:0px;
   left:0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header{
@@ -111,25 +115,32 @@
   font-weight: bold;
 }
 
-
 .contact-me{
   background-color: #3C2A21;
   color: #E5E5CB;
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  right: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .card{
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: #E5E5CB;
+  color: #382116;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form>input{
+  border: 1.5px solid #382116;
+  border-radius: 6px;
+  color: #382116;
+  background-color: #E5E5CB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.form>button{
+  
+}
