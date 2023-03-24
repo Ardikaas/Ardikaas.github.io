@@ -120,15 +120,32 @@
   color: #E5E5CB;
 }
 
+.object{
+  content: "";
+  width: 50px;
+  height:56%;
+  z-index: +1;
+  position: absolute;
+  background-color: #382116;
+}
+
 .card{
   background-color: #E5E5CB;
   color: #382116;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+  border-radius: 20px;
 }
 
 .form{
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .form>input{
@@ -142,5 +159,15 @@
 }
 
 .form>button{
-  
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  background-color: #382116;
+  color: #E5E5CB;
+  border: 5px solid #382116;
+}
+
+.form>button:hover{
+  opacity: 0.8;
 }
