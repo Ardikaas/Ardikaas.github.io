@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  overflow-x: hidden;
+  background-color: #3C2A21;
+  scroll-behavior: smooth;
+}
+
 .container{
   font-family: 'Montserrat', sans-serif;
   background-color: #3C2A21;
@@ -219,6 +229,68 @@
   color: #E5E5CB;
 }
 
+.box-container{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-left: 13rem;
+  padding-right: 20px;
+  /* gap: 30px; */
+  /* justify-content: space-evenly; */
+}
+
+.box-card{
+  width: 240;
+  height: 150;
+  margin: 10px;
+  background-color: #382116;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.box-card>img{
+  width: 178px;
+  height: 178px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.box-card>p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 160px;
+  white-space: nowrap;
+}
+
+/* .box-card>p{
+  position: ;
+  line-height: 1.8;
+  display: inline-block;
+} */
+
+
+/* .home::before{
+  content: "";
+  position: absolute;
+  width: 1190px;
+  height: 1190px;
+  left: 900px;
+  top: 300px;
+  background: #1A120B;
+  border-radius: 50%;
+  }
+
+.home::after{
+  content: url(Assets/Ardikaas.png);
+  z-index: +1;
+  position: absolute;
+  left: 1100px;
+  top: 300px;
+  }  */
+
 /* home */
 
 /* about me */
@@ -233,8 +305,4 @@
 }
 /* about me */
 
-/* contact me */
-.contactme{
-  background-color: red;
-}
-/* contact me */
+
