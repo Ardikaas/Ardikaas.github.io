@@ -239,6 +239,11 @@ html{
   /* justify-content: space-evenly; */
 }
 
+.box-container>a{
+  text-decoration: none;
+  color: #E5E5CB;
+}
+
 .box-card{
   width: 240;
   height: 150;
@@ -261,35 +266,15 @@ html{
 .box-card>p{
   text-overflow: ellipsis;
   overflow: hidden;
-  width: 160px;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: pre-wrap;
 }
 
-/* .box-card>p{
-  position: ;
-  line-height: 1.8;
-  display: inline-block;
-} */
-
-
-/* .home::before{
-  content: "";
-  position: absolute;
-  width: 1190px;
-  height: 1190px;
-  left: 900px;
-  top: 300px;
-  background: #1A120B;
-  border-radius: 50%;
-  }
-
-.home::after{
-  content: url(Assets/Ardikaas.png);
-  z-index: +1;
-  position: absolute;
-  left: 1100px;
-  top: 300px;
-  }  */
+.undone{
+  filter: blur(5px) brightness(50%);
+}
 
 /* home */
 
