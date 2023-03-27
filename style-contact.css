@@ -129,6 +129,7 @@ html{
   background-color: #E5E5CB;
   color: #382116;
   display: flex;
+  align-items: center;
   /* flex-direction: row; */
   /* justify-content: center; */
   align-items: center;
@@ -141,6 +142,8 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
+  /* margin: 0 auto; */
 }
 
 .object{
@@ -148,6 +151,8 @@ html{
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  width: 400px;
+  height: 400px;
 }
 
 .object::before{
@@ -173,8 +178,6 @@ html{
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  width: 400px;
-  height: 400px;
 }
 
 .form>input{
